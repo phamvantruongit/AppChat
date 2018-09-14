@@ -1,4 +1,4 @@
-package vn.com.phamvantruongit.appchat.Service;
+package vn.com.phamvantruongit.appchat.gcm;
 
 import android.app.ActivityManager;
 import android.app.NotificationManager;

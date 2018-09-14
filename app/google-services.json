@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "999970367014",
+    "firebase_url": "https://appchat-d26ba.firebaseio.com",
+    "project_id": "appchat-d26ba",
+    "storage_bucket": "appchat-d26ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999970367014:android:8ea38152be5bbfc4",
+        "android_client_info": {
+          "package_name": "vn.com.phamvantruongit.appchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999970367014-ghme90om864q43m3r1t3tdp6m2k2amqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo5H7zxWQLuPMZaLuGJzOgC1HxEpbewoI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

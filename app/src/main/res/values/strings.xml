@@ -1,4 +1,3 @@
 <resources>
     <string name="app_name">AppChat</string>
-    <string name="gcm_defaultSenderId">123456</string>
 </resources>
