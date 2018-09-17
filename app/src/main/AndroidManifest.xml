@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="vn.com.phamvantruongit.appchat">
-   <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <permission
         android:name="vn.com.phamvantruongit.appchat.androidgcm.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
+
     <uses-permission android:name="vn.com.phamvantruongit.appchat.androidgcm.permission.C2D_MESSAGE" />
 
     <application
@@ -25,7 +27,7 @@
             </intent-filter>
         </activity>
 
-        <!--             GCM Receiver -->
+        <!-- GCM Receiver -->
         <receiver
             android:name="com.google.android.gms.gcm.GcmReceiver"
             android:exported="true"
@@ -37,7 +39,7 @@
             </intent-filter>
         </receiver>
 
-        <!--             GCM Receiver Service -->
+        <!-- GCM Receiver Service -->
         <service
             android:name=".gcm.GCMPushReceiverService"
             android:exported="false">
@@ -46,7 +48,7 @@
             </intent-filter>
         </service>
 
-        <!--             GCM Registration Intent Service -->
+        <!-- GCM Registration Intent Service -->
         <service
             android:name=".gcm.GCMRegistrationIntentService"
             android:exported="false">
@@ -55,7 +57,7 @@
             </intent-filter>
         </service>
 
-
+        <activity android:name=".ActivityChatRoom"></activity>
     </application>
 
 </manifest>
